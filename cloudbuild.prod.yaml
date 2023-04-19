@@ -33,4 +33,4 @@ substitutions:
     _SERVICE_PROJECT  : prod
     _SERVICE_NAME     : my-docker-app-prod
     _DOCKER_REGISTRY  : my-docker-app-prod-00001-beq 
-    _DOCKER_IMAGENAME : my-docker-app-prod
+    _DOCKER_IMAGENAME : my-dockerapp
