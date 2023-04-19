@@ -1,3 +1,6 @@
+#-----------------------------------------
+# CloudBuild Pipeline for Prod CloudRun
+#-----------------------------------------
 steps:
 # Docker Build Image
   - name: gcr.io/cloud-builders/docker
@@ -29,5 +32,5 @@ substitutions:
     _SERVICE_REGION   : northamerica-northeast1
     _SERVICE_PROJECT  : prod
     _SERVICE_NAME     : my-docker-app-prod
-    _DOCKER_REGISTRY  : vanya-docker-repo 
-    _DOCKER_IMAGENAME : my-dockerapp
+    _DOCKER_REGISTRY  : vanya-docker-repo
+    _DOCKER_IMAGENAME : myapp-prod
